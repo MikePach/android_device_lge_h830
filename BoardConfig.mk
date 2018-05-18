@@ -30,3 +30,5 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/lge/h830/BoardConfigVendor.mk
+
+BOARD_GLOBAL_CFLAGS += DBATTERY_REAL_INFO
